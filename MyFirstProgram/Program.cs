@@ -11,7 +11,7 @@ namespace Task_01_HelloWorld
             Console.Write("Velkommen ");
             Console.WriteLine(navn.ToUpper());
             Console.WriteLine("Tryk en tast for at fortsætte");
-            Console.Write(Test("yes "));
+            Console.Write(Test("yes yes "));
             Console.ReadKey();
         }
 
