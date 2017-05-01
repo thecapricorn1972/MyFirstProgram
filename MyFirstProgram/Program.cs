@@ -8,8 +8,7 @@ namespace Task_01_HelloWorld
         {
             Console.WriteLine("Indtast navn");
             String navn = Console.ReadLine();
-            Console.Write("Velkommen ");
-            Console.WriteLine(navn.ToUpper());
+            Console.WriteLine("Velkommen "+navn.ToUpper());
             Console.WriteLine("Tryk en tast for at fortsætte");
             Console.Write(Test("yes "));
             Console.ReadKey();
